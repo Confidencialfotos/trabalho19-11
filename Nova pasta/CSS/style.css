@@ -10,23 +10,20 @@
 
 .bolo
 {
-    display: flex; 
-    justify-content: center;
+    
     color: #705315;
     font-size: 50px;
 }
 
 .sopa
 {
-    display: flex; 
-    justify-content: center;
+    
     color: #705315;
     font-size: 50px;
 }
 .doce
 {
-    display: flex; 
-    justify-content: center;
+    
     color: #705315;
     font-size: 50px;
 }
@@ -37,15 +34,9 @@
     height: 80px;
     color: #f5f2f2;
 }
-.caixa
-{
-    background-color: black;
-    width: 75%;
-    
-}
 
 body {
-    display: flex;
+   
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center;     /* Centraliza verticalmente */
     min-height: 100vh;       /* Garante que o body ocupe 100% da altura da viewport */
@@ -56,10 +47,17 @@ body {
 .caixa {
     /* Adicione estilos para a caixa para que ela seja visível */
     border: 2px solid #ccc;
-    padding: 20px;
+    display: flex;
+    padding: 120px;
+    justify-content: center;
     background-color: white;
     border-radius: 10px;
     width: 80%; /* Opcional: define uma largura máxima */
-    max-width: 100px;
+    /* max-width: 100px; */
     text-align: center; /* Opcional: centraliza o texto dentro da caixa */
+}
+.botao
+{
+    width: 100px;
+    height: 50px;
 }
